@@ -1,0 +1,26 @@
+[
+  {
+    "id": 101,
+    "name": "dhruv",
+    "email": "arisha@example.com",
+    "department": "IT"
+  },
+  {
+    "id": 102,
+    "name": "vanshi",
+    "email": "vanshi@example.com",
+    "department": "HR"
+  },
+  {
+    "id": 103,
+    "name": "aayushi",
+    "email": "aayushi@example.com",
+    "department": "Finance"
+  },
+  {
+    "id": 104,
+    "name": "shanu",
+    "email": "shanu@example.com",
+    "department": "Marketing"
+  }
+]
