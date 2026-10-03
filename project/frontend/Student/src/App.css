@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    color: #222;
+}
+
+button,
+input,
+select {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.app {
+    min-height: 100vh;
+}
+
+header {
+    background: #1f4e79;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 6px 0 0;
+    font-size: 14px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 25px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 9px;
+    margin-top: 6px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background: white;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #1f4e79;
+}
+
+small {
+    display: block;
+    margin-top: 4px;
+    color: #d00000;
+    font-weight: normal;
+}
+
+.form-buttons {
+    margin-top: 18px;
+}
+
+button {
+    padding: 9px 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.add-button,
+.update-button {
+    background: #1f4e79;
+    color: white;
+}
+
+.cancel-button {
+    background: #777;
+    color: white;
+    margin-left: 8px;
+}
+
+.edit-button {
+    background: #e6a700;
+    color: white;
+    margin-right: 6px;
+}
+
+.delete-button {
+    background: #c0392b;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.message.error {
+    color: #c0392b;
+}
+
+.message.success {
+    color: #20752d;
+}
+
+.list-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.list-top h2 {
+    margin: 0;
+}
+
+.search-input {
+    width: 280px;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background: #e9eef3;
+}
+
+tr:nth-child(even) {
+    background: #fafafa;
+}
+
+.empty {
+    padding: 20px 0;
+    color: #666;
+}
